@@ -1,4 +1,4 @@
-# data-science-blog
+# Data-science-blog
 
 For this project we will be using datasets provided by Stackoverflow-Survey 2018 on kaggle datasets https://www.kaggle.com/stackoverflow/stack-overflow-2018-developer-survey
 
@@ -21,7 +21,7 @@ Getting answers for all this will help me improve my lifestyle as a developer an
 Never thought most of the developers wake up around 7am to 8am, please find many more the interesting insight which I found out from data analysis on my medium blog: https://medium.com/@ks.barodiyakaushik/insights-from-stack-overflows-2018-survey-1b4c37b63ff8
 
 
-**Libraies**
+**Libraries **
 
 For this project we will mainly 4 libraries:
 
