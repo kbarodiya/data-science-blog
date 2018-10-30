@@ -21,30 +21,25 @@ Getting answers for all this will help me improve my lifestyle as a developer an
 Never thought most of the developers wake up around 7am to 8am, please find many more the interesting insight which I found out from data analysis on my medium blog: https://medium.com/@ks.barodiyakaushik/insights-from-stack-overflows-2018-survey-1b4c37b63ff8
 
 
-**Libraries **
+**Libraries**
 
-For this project we will mainly 4 libraries:
-
-- NumPy: For rich set of python functions provided for multi dimensional array.
-- Pandas: For data manipulation and analysis.
-
-- matplotlib.pyplot: For data visualization
-- seaborn: For data visualization
-
-- Counter: Helper function for collection.
+- numpy==1.14.3
+- pandas==0.23.0 
+- matplotlib==2.2.2
+- seaborn==0.8.1
 
 **Acknowledgements**
 
-First of all, I will like to thank Stackoverflow for conducting such a awesome survey every year without that this project was impossible.
-Secondly, Kaggle for creating such an awesome community of data scientists, providing all the datasets publicly available. Thanks to Stackoverflow too for publishing all the datasets publicely.
+First of all, I would like to thank Stackoverflow for conducting such an awesome survey every year without that this project was impossible.
+Secondly, Kaggle for creating such an awesome community of data scientists, providing all the datasets publicly available. Thanks to StackOverflow too for publishing all the datasets publicly.
 
 
 **Summary**
 
-It been quite a learning for completing this project. 
-This are some of key findings:
+It has been quite a learning experience in completing this project. 
+These are some of the key findings:
 - Most preferred IDE **Visual Studio Code**.
-- Most popular langugae **JavaScript**.
-- Most of the developer wake up between **7am - 8am**.
-- It's **very rare** where developer skip meals to be more productive.
+- Most popular language **JavaScript**.
+- Most of the developer wake up between **7 am - 8 am**.
+- It's **very rare** where developer skips meals to be more productive.
 - Most of the developer **avoid** exercise.

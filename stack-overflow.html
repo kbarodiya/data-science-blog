@@ -12258,13 +12258,54 @@ Length: 129, dtype: int64</pre>
 </div>
 </div>
 
-</div>As you can see there are multiple columns with missing values.
-Let's first clean the data of columns which we will be using mainly.
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Data types of columns we are going to use:</strong></p>
+<ul>
+<li><em>LanguageWorkedWith</em>: object</li>
+<li><em>SkipMeals</em>: object</li>
+<li><em>IDE</em>: object</li>
+<li><em>Exercise</em>: object</li>
+<li><em>WakeTime</em>: object</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Findings:</strong></p>
+<ul>
+<li>There are multiple columns with missing values.</li>
+<li>The columns which we are using are all of the categorical data type.</li>
+<li>We don't need to explicitly handle categorical variables differently as we are not building an ML model here.</li>
+<li>Our primary objective of this project is not to build an ML model but to see the various trends in the developer community.</li>
+</ul>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Data-cleaning">Data cleaning<a class="anchor-link" href="#Data-cleaning">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>As we are dealing with survey data here, it is likely that user may not provide an answer to all the question.
+So in that case, let's drop all the rows with a null value for the columns which are using.</p>
+<p>Dropping null values for this columns will only remove those users who have not provided the data.</p>
+
 </div>
 </div>
 </div>
